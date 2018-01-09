@@ -2064,7 +2064,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6224c7;
+  background: #a3364e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2904,13 +2904,6 @@ embed {
 body {
   background: rbg(196, 187, 195);
 }
-.post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
-}
 .site-subtitle {
   font-size: 15px;
   color: #000;
@@ -2954,7 +2947,8 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 40px;
   padding: 18px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.8);
+  -webkit-box-shadow: 0 0 5px #a2a5a5;
+  background: rgba(247,247,247,0.6);
 }
 .site-description {
   font-size: 16px;

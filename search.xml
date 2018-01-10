@@ -5,8 +5,11 @@
     <url>%2F2018%2F01%2F09%2Fhell%2F</url>
     <content type="text"><![CDATA[sas]]></content>
       <categories>
-        <category>Hexo教程</category>
+        <category>-Hexo教程</category>
       </categories>
+      <tags>
+        <tag>-test</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>

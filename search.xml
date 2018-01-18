@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[如何处理嵌套的表格边框]]></title>
+    <url>%2F2018%2F01%2F18%2F%E8%A1%A8%E6%A0%BC%E5%B5%8C%E5%A5%97%E8%BE%B9%E6%A1%86%E5%A4%84%E7%90%86%2F</url>
+    <content type="text"><![CDATA[表格table嵌套，边框合并问题外层table与内层table嵌套，内外表格都需边框时，设置“border=1”，但边框会重复，造成某些地方边框粗，有些地方边框细的问题。解决办法：外表格样式： 1&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;”&gt; 内表格样式：1&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;border-width:0px; border-style:hidden;&quot;&gt; 按照如上设置：嵌套表格看起来就像一个表格一样，非常漂亮！原文地址]]></content>
+      <categories>
+        <category>-css样式</category>
+      </categories>
+      <tags>
+        <tag>-web前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F01%2F09%2Fhell%2F</url>
     <content type="text"><![CDATA[1这是我的第一篇博客日记，不知道写些啥比较好，随便写写，算是有了个开头，留下些痕迹。。。]]></content>

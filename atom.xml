@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lt1231.github.io/"/>
-  <updated>2018-01-18T07:56:29.477Z</updated>
+  <updated>2018-01-18T07:59:53.745Z</updated>
   <id>https://lt1231.github.io/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="https://lt1231.github.io/2018/01/18/%E8%A1%A8%E6%A0%BC%E5%B5%8C%E5%A5%97%E8%BE%B9%E6%A1%86%E5%A4%84%E7%90%86/"/>
     <id>https://lt1231.github.io/2018/01/18/表格嵌套边框处理/</id>
     <published>2018-01-18T07:48:59.485Z</published>
-    <updated>2018-01-18T07:56:29.477Z</updated>
+    <updated>2018-01-18T07:59:53.745Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>表格table嵌套，边框合并问题</strong><br>外层table与内层table嵌套，内外表格都需边框时，设置“border=1”，但边框会重复，造成某些地方边框粗，有些地方边框细的问题。<br>解决办法：<br>外表格样式：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;”&gt;</span><br></pre></td></tr></table></figure><p>内表格样式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;border-width:0px; border-style:hidden;&quot;&gt;</span><br></pre></td></tr></table></figure></p><p>按照如上设置：嵌套表格看起来就像一个表格一样，非常漂亮！<br><a href="https://www.cnblogs.com/sunflower627/p/3548368.html" target="_blank" rel="noopener">原文地址</a></p>]]></content>
+    <content type="html"><![CDATA[<p>外层table与内层table嵌套，内外表格都需边框时，设置“border=1”，但边框会重复，造成某些地方边框粗，有些地方边框细的问题。<br>解决办法：<br>外表格样式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;”&gt;</span><br></pre></td></tr></table></figure></p><p>内表格样式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;border-width:0px; border-style:hidden;&quot;&gt;</span><br></pre></td></tr></table></figure></p><p>按照如上设置：嵌套表格看起来就像一个表格一样，非常漂亮！<br><a href="https://www.cnblogs.com/sunflower627/p/3548368.html" target="_blank" rel="noopener">原文地址</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;strong&gt;表格table嵌套，边框合并问题&lt;/strong&gt;&lt;br&gt;外层table与内层table嵌套，内外表格都需边框时，设置“border=1”，但边框会重复，造成某些地方边框粗，有些地方边框细的问题。&lt;br&gt;解决办法：&lt;br&gt;外表格样式：&lt;/p&gt;
-&lt;figure
+        &lt;p&gt;外层table与内层table嵌套，内外表格都需边框时，设置“border=1”，但边框会重复，造成某些地方边框粗，有些地方边框细的问题。&lt;br&gt;解决办法：&lt;br&gt;外表格样式：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t
       
     
     </summary>

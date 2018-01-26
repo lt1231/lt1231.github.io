@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F01%2F26%2F%E4%B8%8B%E8%BD%BD%E6%8E%A7%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[html部分1&lt;a href=&quot;download.php?file=这里写你需要下载的文件地址&quot;&gt;UCdownload&lt;/a&gt; php部分&lt;?php$file = $_GET[‘file’];header (“Content-type: octet/stream”); //字节流，下载使用header (“Content-disposition: attachment; filename=”.$file.”;”); //下载的形式，这里是作为附件下载header(“Content-Length: “.filesize($file));readfile($file);exit;?&gt;这里写代码片```]]></content>
+      <categories>
+        <category>-下载控件（点击链接下载文件）</category>
+      </categories>
+      <tags>
+        <tag>-web</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[如何处理嵌套的表格边框]]></title>
     <url>%2F2018%2F01%2F18%2F%E8%A1%A8%E6%A0%BC%E5%B5%8C%E5%A5%97%E8%BE%B9%E6%A1%86%E5%A4%84%E7%90%86%2F</url>
     <content type="text"><![CDATA[外层table与内层table嵌套，内外表格都需边框时，设置“border=1”，但边框会重复，造成某些地方边框粗，有些地方边框细的问题。 解决办法：外表格样式：1&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;”&gt; 内表格样式：1&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;border-width:0px; border-style:hidden;&quot;&gt; 按照如上设置：嵌套表格看起来就像一个表格一样，非常漂亮！原文地址]]></content>

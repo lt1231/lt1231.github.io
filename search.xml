@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
+    <title><![CDATA[下载控件（点击链接下载文件）]]></title>
     <url>%2F2018%2F01%2F26%2F%E4%B8%8B%E8%BD%BD%E6%8E%A7%E4%BB%B6%2F</url>
-    <content type="text"><![CDATA[html部分1&lt;a href=&quot;download.php?file=这里写你需要下载的文件地址&quot;&gt;UCdownload&lt;/a&gt; php部分&lt;?php$file = $_GET[‘file’];header (“Content-type: octet/stream”); //字节流，下载使用header (“Content-disposition: attachment; filename=”.$file.”;”); //下载的形式，这里是作为附件下载header(“Content-Length: “.filesize($file));readfile($file);exit;?&gt;这里写代码片```]]></content>
+    <content type="text"><![CDATA[html部分1&lt;a href=&quot;download.php?file=这里写你需要下载的文件地址&quot;&gt;UCdownload&lt;/a&gt; php部分12345678&lt;?php $file = $_GET[&apos;file&apos;];header (&quot;Content-type: octet/stream&quot;); //字节流，下载使用header (&quot;Content-disposition: attachment; filename=&quot;.$file.&quot;;&quot;); //下载的形式，这里是作为附件下载header(&quot;Content-Length: &quot;.filesize($file)); readfile($file); exit; ?&gt;]]></content>
       <categories>
-        <category>-下载控件（点击链接下载文件）</category>
+        <category>-web 前端</category>
       </categories>
       <tags>
-        <tag>-web</tag>
+        <tag>-web前端</tag>
       </tags>
   </entry>
   <entry>

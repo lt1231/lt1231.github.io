@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lt1231.github.io/"/>
-  <updated>2018-01-26T01:26:07.576Z</updated>
+  <updated>2018-02-02T05:47:32.777Z</updated>
   <id>https://lt1231.github.io/</id>
   
   <author>
@@ -15,6 +15,83 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>json和js的互转</title>
+    <link href="https://lt1231.github.io/2018/02/02/jsonh%E5%92%8Cjs%E7%9A%84%E4%BA%92%E8%BD%AC/"/>
+    <id>https://lt1231.github.io/2018/02/02/jsonh和js的互转/</id>
+    <published>2018-02-02T05:47:32.777Z</published>
+    <updated>2018-02-02T05:47:32.777Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>JS对象转json</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var data = new Object();</span><br><span class="line">var json_data = JSON.stringify(data);</span><br></pre></td></tr></table></figure><blockquote><p>（可用来成转换js数组）</p></blockquote><p><strong>json转JS</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var json_data = $.getJSON();</span><br><span class="line">var data = $.parseJSON(json_data);</span><br></pre></td></tr></table></figure><p><strong>.将json转换成js对象的方法：</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var json = eval(&apos;(&apos; + result + &apos;)&apos;);</span><br></pre></td></tr></table></figure><blockquote><p>通过上面这个表达式，就完成了将服务器端响应给客户端的Json格式的字符串解析成了一个Json（格式的）对象，名称为“json”，通过“json.”或者“json[]”的方式便可进行数据访问。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;JS对象转json&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span cl
+      
+    
+    </summary>
+    
+      <category term="-javascript" scheme="https://lt1231.github.io/categories/javascript/"/>
+    
+    
+      <category term="-web前端" scheme="https://lt1231.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>http状态码大全</title>
+    <link href="https://lt1231.github.io/2018/02/02/http%E7%8A%B6%E6%80%81%E7%A0%81%E5%A4%A7%E5%85%A8/"/>
+    <id>https://lt1231.github.io/2018/02/02/http状态码大全/</id>
+    <published>2018-02-02T05:38:59.638Z</published>
+    <updated>2018-02-02T05:41:29.219Z</updated>
+    
+    <content type="html"><![CDATA[<p>XMLHttpRequest.status:<br>1xx-信息提示<br>这些状态代码表示临时的响应。客户端在收到常规响应之前，应准备接收一个或多个1xx响应。<br>100-继续。<br>101-切换协议。<br>2xx-成功<br>这类状态代码表明服务器成功地接受了客户端请求。<br>200-确定。客户端请求已成功。<br>201-已创建。<br>202-已接受。<br>203-非权威性信息。<br>204-无内容。<br>205-重置内容。<br>206-部分内容。<br>3xx-重定向<br>客户端浏览器必须采取更多操作来实现请求。例如，浏览器可能不得不请求服务器上的不同的页面，或通过代理服务器重复该请求。<br>301-对象已永久移走，即永久重定向。<br>302-对象已临时移动。<br>304-未修改。<br>307-临时重定向。<br>4xx-客户端错误<br>发生错误，客户端似乎有问题。例如，客户端请求不存在的页面，客户端未提供有效的身份验证信息。400-错误的请求。<br>401-访问被拒绝。IIS定义了许多不同的401错误，它们指明更为具体的错误原因。这些具体的错误代码在浏览器中显示，但不在IIS日志中显示：<br>401.1-登录失败。<br>401.2-服务器配置导致登录失败。<br>401.3-由于ACL对资源的限制而未获得授权。<br>401.4-筛选器授权失败。<br>401.5-ISAPI/CGI应用程序授权失败。<br>401.7–访问被Web服务器上的URL授权策略拒绝。这个错误代码为IIS6.0所专用。<br>403-禁止访问：IIS定义了许多不同的403错误，它们指明更为具体的错误原因：<br>403.1-执行访问被禁止。<br>403.2-读访问被禁止。<br>403.3-写访问被禁止。<br>403.4-要求SSL。<br>403.5-要求SSL128。<br>403.6-IP地址被拒绝。<br>403.7-要求客户端证书。<br>403.8-站点访问被拒绝。<br>403.9-用户数过多。<br>403.10-配置无效。<br>403.11-密码更改。<br>403.12-拒绝访问映射表。<br>403.13-客户端证书被吊销。<br>403.14-拒绝目录列表。<br>403.15-超出客户端访问许可。<br>403.16-客户端证书不受信任或无效。<br>403.17-客户端证书已过期或尚未生效。<br>403.18-在当前的应用程序池中不能执行所请求的URL。这个错误代码为IIS6.0所专用。<br>403.19-不能为这个应用程序池中的客户端执行CGI。这个错误代码为IIS6.0所专用。<br>403.20-Passport登录失败。这个错误代码为IIS6.0所专用。<br>404-未找到。<br>404.0-（无）–没有找到文件或目录。<br>404.1-无法在所请求的端口上访问Web站点。<br>404.2-Web服务扩展锁定策略阻止本请求。<br>404.3-MIME映射策略阻止本请求。<br>405-用来访问本页面的HTTP谓词不被允许（方法不被允许）<br>406-客户端浏览器不接受所请求页面的MIME类型。<br>407-要求进行代理身份验证。<br>412-前提条件失败。<br>413–请求实体太大。<br>414-请求URI太长。<br>415–不支持的媒体类型。<br>416–所请求的范围无法满足。<br>417–执行失败。<br>423–锁定的错误。<br>5xx-服务器错误<br>服务器由于遇到错误而不能完成该请求。<br>500-内部服务器错误。<br>500.12-应用程序正忙于在Web服务器上重新启动。<br>500.13-Web服务器太忙。<br>500.15-不允许直接请求Global.asa。<br>500.16–UNC授权凭据不正确。这个错误代码为IIS6.0所专用。<br>500.18–URL授权存储不能打开。这个错误代码为IIS6.0所专用。<br>500.100-内部ASP错误。<br>501-页眉值指定了未实现的配置。<br>502-Web服务器用作网关或代理服务器时收到了无效响应。<br>502.1-CGI应用程序超时。<br>502.2-CGI应用程序出错。application.<br>503-服务不可用。这个错误代码为IIS6.0所专用。<br>504-网关超时。<br>505-HTTP版本不受支持。<br>FTP<br>1xx-肯定的初步答复<br>这些状态代码指示一项操作已经成功开始，但客户端希望在继续操作新命令前得到另一个答复。<br>110重新启动标记答复。<br>120服务已就绪，在nnn分钟后开始。<br>125数据连接已打开，正在开始传输。<br>150文件状态正常，准备打开数据连接。<br>2xx-肯定的完成答复<br>一项操作已经成功完成。客户端可以执行新命令。200命令确定。<br>202未执行命令，站点上的命令过多。<br>211系统状态，或系统帮助答复。<br>212目录状态。<br>213文件状态。<br>214帮助消息。<br>215NAME系统类型，其中，NAME是AssignedNumbers文档中所列的正式系统名称。<br>220服务就绪，可以执行新用户的请求。<br>221服务关闭控制连接。如果适当，请注销。<br>225数据连接打开，没有进行中的传输。<br>226关闭数据连接。请求的文件操作已成功（例如，传输文件或放弃文件）。<br>227进入被动模式(h1,h2,h3,h4,p1,p2)。<br>230用户已登录，继续进行。<br>250请求的文件操作正确，已完成。<br>257已创建“PATHNAME”。<br>3xx-肯定的中间答复<br>该命令已成功，但服务器需要更多来自客户端的信息以完成对请求的处理。331用户名正确，需要密码。<br>332需要登录帐户。<br>350请求的文件操作正在等待进一步的信息。<br>4xx-瞬态否定的完成答复<br>该命令不成功，但错误是暂时的。如果客户端重试命令，可能会执行成功。421服务不可用，正在关闭控制连接。如果服务确定它必须关闭，将向任何命令发送这一应答。<br>425无法打开数据连接。<br>426Connectionclosed;transferaborted.<br>450未执行请求的文件操作。文件不可用（例如，文件繁忙）。<br>451请求的操作异常终止：正在处理本地错误。<br>452未执行请求的操作。系统存储空间不够。<br>5xx-永久性否定的完成答复<br>该命令不成功，错误是永久性的。如果客户端重试命令，将再次出现同样的错误。500语法错误，命令无法识别。这可能包括诸如命令行太长之类的错误。<br>501在参数中有语法错误。<br>502未执行命令。<br>503错误的命令序列。<br>504未执行该参数的命令。<br>530未登录。<br>532存储文件需要帐户。<br>550未执行请求的操作。文件不可用（例如，未找到文件，没有访问权限）。<br>551请求的操作异常终止：未知的页面类型。<br>552请求的文件操作异常终止：超出存储分配（对于当前目录或数据集）。<br>553未执行请求的操作。不允许的文件名。<br>常见的FTP状态代码及其原因<br>150-FTP使用两个端口：21用于发送命令，20用于发送数据。状态代码150表示服务器准备在端口20上打开新连接，发送一些数据。<br>226-命令在端口20上打开数据连接以执行操作，如传输文件。该操作成功完成，数据连接已关闭。<br>230-客户端发送正确的密码后，显示该状态代码。它表示用户已成功登录。<br>331-客户端发送用户名后，显示该状态代码。无论所提供的用户名是否为系统中的有效帐户，都将显示该状态代码。<br>426-命令打开数据连接以执行操作，但该操作已被取消，数据连接已关闭。<br>530-该状态代码表示用户无法登录，因为用户名和密码组合无效。如果使用某个用户帐户登录，可能键入错误的用户名或密码，也可能选择只允许匿名访问。如果使用匿名帐户登录，IIS的配置可能拒绝匿名访问。<br>550-命令未被执行，因为指定的文件不可用。例如，要GET的文件并不存在，或试图将文件PUT到您没有写入权限的目录</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;XMLHttpRequest.status:&lt;br&gt;1xx-信息提示&lt;br&gt;这些状态代码表示临时的响应。客户端在收到常规响应之前，应准备接收一个或多个1xx响应。&lt;br&gt;100-继续。&lt;br&gt;101-切换协议。&lt;br&gt;2xx-成功&lt;br&gt;这类状态代码表明服务器成功地接受了客
+      
+    
+    </summary>
+    
+      <category term="-http协议" scheme="https://lt1231.github.io/categories/http%E5%8D%8F%E8%AE%AE/"/>
+    
+    
+      <category term="-服务器知识点" scheme="https://lt1231.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>json和js的互转</title>
+    <link href="https://lt1231.github.io/2018/02/02/json%E5%92%8Cjs%E7%9A%84%E4%BA%92%E8%BD%AC/"/>
+    <id>https://lt1231.github.io/2018/02/02/json和js的互转/</id>
+    <published>2018-02-02T05:36:31.665Z</published>
+    <updated>2018-02-02T05:38:45.786Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>JS对象转json</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var data = new Object();</span><br><span class="line">var json_data = JSON.stringify(data);</span><br></pre></td></tr></table></figure><blockquote><p>（可用来成转换js数组）</p></blockquote><p><strong>json转JS</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var json_data = $.getJSON();</span><br><span class="line">var data = $.parseJSON(json_data);</span><br></pre></td></tr></table></figure><p><strong>.将json转换成js对象的方法：</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var json = eval(&apos;(&apos; + result + &apos;)&apos;);</span><br></pre></td></tr></table></figure><blockquote><p>通过上面这个表达式，就完成了将服务器端响应给客户端的Json格式的字符串解析成了一个Json（格式的）对象，名称为“json”，通过“json.”或者“json[]”的方式便可进行数据访问。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;JS对象转json&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span cl
+      
+    
+    </summary>
+    
+      <category term="-javascript" scheme="https://lt1231.github.io/categories/javascript/"/>
+    
+    
+      <category term="-web前端" scheme="https://lt1231.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>下载控件（点击链接下载文件）</title>
@@ -46,7 +123,7 @@
     <link href="https://lt1231.github.io/2018/01/18/%E8%A1%A8%E6%A0%BC%E5%B5%8C%E5%A5%97%E8%BE%B9%E6%A1%86%E5%A4%84%E7%90%86/"/>
     <id>https://lt1231.github.io/2018/01/18/表格嵌套边框处理/</id>
     <published>2018-01-18T07:48:59.485Z</published>
-    <updated>2018-01-18T08:03:33.360Z</updated>
+    <updated>2018-02-02T05:47:31.467Z</updated>
     
     <content type="html"><![CDATA[<p><code>外层table与内层table嵌套，内外表格都需边框时，设置“border=1”，但边框会重复，造成某些地方边框粗，有些地方边框细的问题。</code></p><p>解决办法：<br>外表格样式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;”&gt;</span><br></pre></td></tr></table></figure></p><p>内表格样式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; style=&quot;border-collapse: collapse;border-width:0px; border-style:hidden;&quot;&gt;</span><br></pre></td></tr></table></figure></p><p><code>按照如上设置：嵌套表格看起来就像一个表格一样，非常漂亮！</code><br><a href="https://www.cnblogs.com/sunflower627/p/3548368.html" target="_blank" rel="noopener">原文地址</a></p>]]></content>
     
@@ -72,7 +149,7 @@
     <link href="https://lt1231.github.io/2018/01/09/hell/"/>
     <id>https://lt1231.github.io/2018/01/09/hell/</id>
     <published>2018-01-09T10:26:47.074Z</published>
-    <updated>2018-01-22T08:26:26.129Z</updated>
+    <updated>2018-02-02T05:47:25.944Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://img.zcool.cn/community/01db935a53303ba8012180c57ff4e8.jpeg@260w_195h_1c_1e_1o_100sh.jpg" alt="这里写图片描述"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是我的第一篇博客日记，不知道写些啥比较好，随便写写，算是有了个开头，留下些痕迹。。。</span><br></pre></td></tr></table></figure>]]></content>
     

@@ -10,6 +10,6 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/ 
 Disallow: /fancybox/ 
-Sitemap: http://www.liting.wang/sitemap.xml 
-Sitemap: http://www.liting.wang/baidusitemap.xml
+Sitemap: http://liting.wang/sitemap.xml 
+Sitemap: http://liting.wang/baidusitemap.xml
 

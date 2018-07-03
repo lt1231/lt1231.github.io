@@ -1,3 +1,3 @@
-http://www.liting.wang/2018/07/03/啊/
-http://www.liting.wang/2018/07/03/我/
-http://www.liting.wang/2018/04/12/浅谈javascript闭包机制/
+http://liting.wang/2018/07/03/啊/
+http://liting.wang/2018/07/03/我/
+http://liting.wang/2018/04/12/浅谈javascript闭包机制/

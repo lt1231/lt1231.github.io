@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liting.wang/"/>
-  <updated>2018-07-02T02:36:37.344Z</updated>
+  <updated>2018-07-04T01:12:48.771Z</updated>
   <id>http://liting.wang/</id>
   
   <author>
@@ -17,49 +17,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>你好世界</title>
-    <link href="http://liting.wang/2018/07/03/%E5%95%8A%E5%95%8A/"/>
-    <id>http://liting.wang/2018/07/03/啊啊/</id>
-    <published>2018-07-03T05:37:10.651Z</published>
-    <updated>2018-07-02T02:36:37.344Z</updated>
+    <title>如何提升hexo博客的逼格</title>
+    <link href="http://liting.wang/2018/07/04/%E5%85%B3%E4%BA%8Ehexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%BB%E7%BB%93/"/>
+    <id>http://liting.wang/2018/07/04/关于hexo博客的一些总结/</id>
+    <published>2018-07-04T01:09:49.041Z</published>
+    <updated>2018-07-04T01:12:48.771Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://jingyan.baidu.com/article/a3761b2bf716631576f9aa3a.html" target="_blank" rel="noopener">github博客hexo-next主题配置百度站点收录管理</a></p><p><a href="https://yq.aliyun.com/articles/208375" target="_blank" rel="noopener">Github Pages+Hexo+阿里云域名绑定 </a></p><p><a href="https://blog.csdn.net/sunshine940326/article/details/70936988/" target="_blank" rel="noopener">hexo高阶教程：想让你的博客被更多的人在搜索引擎中搜到吗？</a></p><p><a href="https://www.cnblogs.com/xingyunblog/p/8681205.html" target="_blank" rel="noopener">linHexo NexT 博客后台管理指南</a></p><p><a href="https://blog.csdn.net/tsvico/article/details/80629452" target="_blank" rel="noopener">Hexo博客同时部署到GitHub和Coding</a></p><p><a href="https://blog.csdn.net/lhg_55/article/details/78127052/" target="_blank" rel="noopener">coding 绑定私有域名</a></p><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo官网</a></p><p><a href="https://www.cnblogs.com/tengj/p/5357879.html" target="_blank" rel="noopener">让谷歌收录我们的博客</a></p><p><a href="https://www.google.com/webmasters/tools/sitemap-list?hl=zh-CN&amp;authuser=0&amp;siteUrl=http://liting.wang/#MAIN_TAB=0&amp;CARD_TAB=-1" target="_blank" rel="noopener">谷歌站点管理控制台</a></p>]]></content>
     
     <summary type="html">
     
-    </summary>
-    
-      <category term="-学习指南" scheme="http://liting.wang/categories/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>你好世界</title>
-    <link href="http://liting.wang/2018/07/03/%E5%95%8A/"/>
-    <id>http://liting.wang/2018/07/03/啊/</id>
-    <published>2018-07-03T05:12:08.848Z</published>
-    <updated>2018-07-02T02:36:37.344Z</updated>
-    
-    <summary type="html">
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://jingyan.baidu.com/article/a3761b2bf716631576f9aa3a.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;github博客hexo-next主题配置百度站点收录管理&lt;/a
+      
     
     </summary>
     
-      <category term="-学习指南" scheme="http://liting.wang/categories/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>你好世界</title>
-    <link href="http://liting.wang/2018/07/03/%E6%88%91/"/>
-    <id>http://liting.wang/2018/07/03/我/</id>
-    <published>2018-07-03T02:15:56.211Z</published>
-    <updated>2018-07-02T02:36:37.344Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="-学习指南" scheme="http://liting.wang/categories/%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/"/>
+      <category term="-hexo" scheme="http://liting.wang/categories/hexo/"/>
     
     
   </entry>

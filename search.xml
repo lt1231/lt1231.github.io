@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[你好世界]]></title>
-    <url>%2F2018%2F07%2F03%2F%E5%95%8A%E5%95%8A%2F</url>
-    <content type="text"></content>
+    <title><![CDATA[如何提升hexo博客的逼格]]></title>
+    <url>%2F2018%2F07%2F04%2F%E5%85%B3%E4%BA%8Ehexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%BB%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[github博客hexo-next主题配置百度站点收录管理 Github Pages+Hexo+阿里云域名绑定 hexo高阶教程：想让你的博客被更多的人在搜索引擎中搜到吗？ linHexo NexT 博客后台管理指南 Hexo博客同时部署到GitHub和Coding coding 绑定私有域名 Hexo官网 让谷歌收录我们的博客 谷歌站点管理控制台]]></content>
       <categories>
-        <category>-学习指南</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[你好世界]]></title>
-    <url>%2F2018%2F07%2F03%2F%E5%95%8A%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>-学习指南</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[你好世界]]></title>
-    <url>%2F2018%2F07%2F03%2F%E6%88%91%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>-学习指南</category>
+        <category>-hexo</category>
       </categories>
   </entry>
   <entry>
